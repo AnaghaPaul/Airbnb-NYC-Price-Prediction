@@ -1,4 +1,4 @@
-# Airbnb-NYC-Price_Prediction
+# Airbnb-NYC-Price-Prediction
 Welcome to the Airbnb NYC Price Prediction project! This repository contains the code and resources for predicting rental prices for Airbnb listings in New York City. The goal of this project is to help hosts and guests better understand the factors influencing rental prices and make more informed decisions.
 
 ## Table of Contents
@@ -55,8 +55,8 @@ Please note that without explicit licensing information, it's essential to use t
 1. Setting up the environment
 - Clone the repository 
 ```bash
-git clone https://github.com/jibnorge/Airbnb-NYC-Price_Prediction.git
-cd Airbnb-NYC-Price_Prediction
+git clone https://github.com/jibnorge/Airbnb-NYC-Price-Prediction.git
+cd Airbnb-NYC-Price-Prediction
 ```
 
 - Create a virtual python environment
