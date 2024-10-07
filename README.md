@@ -5,12 +5,13 @@ Welcome to the Airbnb NYC Price Prediction project! This repository contains the
 1. [Introduction](#introduction)
 2. [Need of Study](#need-of-study)
 3. [Dataset](#dataset)
-4. [Tools & Techniques](#tools-techniques)
-5. [Data Preperation and Understanding](data-prep)
+4. [Code Usage](#code)
+5. [Tools & Techniques](#tools-techniques)
+6. [Data Preperation and Understanding](data-prep)
     - [Phase I - Data Extraction and Cleaning](phase-1)
     - [Phase II - Exploratory Data Analysis](#phase-2)
     - [Phase III - Feature Engineering](#phase-3)
-6. [Fitting Models to the Data](model-fitting)
+7. [Fitting Models to the Data](model-fitting)
     - [Linear Regression](#lin-reg)
     - [Decision Tree](#dt)
     - [Random Forest](#rf)
@@ -20,9 +21,9 @@ Welcome to the Airbnb NYC Price Prediction project! This repository contains the
     - [Light GBM](#light-gbm)
     - [Cat Boost](#cat-boost)
     - [XG Boost](#xg-boost)
-7. [Key Findings](#key-findings)
-8. [Recommendations](#recommendation)
-9. [Conclusion](#conclusion)
+8. [Key Findings](#key-findings)
+9. [Recommendations](#recommendation)
+10. [Conclusion](#conclusion)
 
 <a name="introduction"></a>
 ## Introduction 
@@ -47,6 +48,30 @@ If you use this dataset in your work, please consider acknowledging Inside Airbn
 Inside Airbnb. (Year). "Name of the Dataset," Inside Airbnb. URL: [http://insideairbnb.com/](http://insideairbnb.com/)
 
 Please note that without explicit licensing information, it's essential to use the data responsibly and to make a good-faith effort to provide attribution based on common practices.
+
+<a name="code"></a>
+## Code Usage 
+
+1. Setting up the environment
+- Clone the repository 
+```bash
+git clone https://github.com/jibnorge/Airbnb-NYC-Price_Prediction.git
+cd Airbnb-NYC-Price_Prediction
+```
+
+- Create a virtual python environment
+```bash
+python -m venv .venv
+```
+
+- Activate the environment and install requirements.txt
+```bash
+.venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+- Open jupyter notebook and run the **airbnb.ipynb** file.
+
 
 <a name="tools-techniques"></a>
 ## Tools & Techniques
